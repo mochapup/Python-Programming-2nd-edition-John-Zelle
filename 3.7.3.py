@@ -13,5 +13,5 @@ on the number of hydrongen, carbon, and oxygen atoms.""")
     onum = float(input("How many oxygen atoms are there: "))
 
     weight = (hnum*h) + (cnum*c) + (onum*o)
-    print(f"The weight of molecular weight of the hydrocarbon is {weight} grams")
+    print(f"The molecular weight of the hydrocarbon is {weight} grams")
 main()
