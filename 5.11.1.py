@@ -1,4 +1,4 @@
-# dateconverter2.py
+# 5.11.1.py
 # Convert day month and year numbers into two date formats
 
 def main():
@@ -15,5 +15,5 @@ def main():
     date2 = monthStr+" " + str(day) + ", " + str(year)
 
     # Output result in month day, year format
-    print("The converted date is:", monthStr, dayStr+",", yearStr)
+    print("The converted date is {date1} or {date2}.")
 main()
