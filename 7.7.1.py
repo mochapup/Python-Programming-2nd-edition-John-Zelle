@@ -2,6 +2,7 @@
 # This program calculate sthe hourly rate and number of hours worked per week
 
 def main():
+    print("This program gives wages earned in a week period.")
     rate = float(input("What is the hourly rate? "))
     numberHours = float(input("How many hours were worked? "))
 
